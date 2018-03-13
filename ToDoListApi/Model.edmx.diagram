@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dc310c2542ee45949c4923670d1dd37f" Name="Diagram1">
+        <EntityTypeShape EntityType="TO_DO_LISTModel.BOARD" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TO_DO_LISTModel.REL_TICKET_HAS_STATUS" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TO_DO_LISTModel.STATUS" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TO_DO_LISTModel.sysdiagram" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TO_DO_LISTModel.TICKET" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TO_DO_LISTModel.USER" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="TO_DO_LISTModel.FK__BOARD__user_id__22AA2996" ManuallyRouted="false" />
+        <AssociationConnector Association="TO_DO_LISTModel.FK__TICKET__board_id__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="TO_DO_LISTModel.FK__REL_TICKE__id_st__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="TO_DO_LISTModel.FK__REL_TICKE__id_ti__239E4DCF" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
